@@ -1,0 +1,207 @@
+{
+  "stocks": [
+    {
+      "stock_code": "HDFBAN",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000,
+      "bollinger": {
+        "period": 20,
+        "std_dev": 2.0
+      },
+      "macd": {
+        "fast_period": 12,
+        "slow_period": 26,
+        "signal_period": 9
+      },
+      "adx": {
+        "period": 14.0,
+        "threshold": 25
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 21
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      }
+    },
+    {
+      "stock_code": "LARTOU",
+      "support": 3300,
+      "resistance": 3501,
+      "volume_threshold": 1000000,
+      "bollinger": {
+        "period": 20,
+        "std_dev": 2.0
+      },
+      "macd": {
+        "fast_period": 12,
+        "slow_period": 26,
+        "signal_period": 9
+      },
+      "adx": {
+        "period": 14.0,
+        "threshold": 30
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 21
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.75
+      }
+    },
+    {
+      "stock_code": "ITC",
+      "support": 1000,
+      "resistance": 1100,
+      "volume_threshold": 100000,
+      "bollinger": {
+        "period": 20,
+        "std_dev": 2.0
+      },
+      "macd": {
+        "fast_period": 12,
+        "slow_period": 26,
+        "signal_period": 9
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 25
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 21
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      }
+    },
+    {
+      "stock_code": "TCS",
+      "support": 1000,
+      "resistance": 1100,
+      "volume_threshold": 100000,
+      "bollinger": {
+        "period": 20,
+        "std_dev": 2.0
+      },
+      "macd": {
+        "fast_period": 12,
+        "slow_period": 26,
+        "signal_period": 9
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 25
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 21
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      }
+    },
+    {
+      "stock_code": "ONGC",
+      "support": 1000,
+      "resistance": 1100,
+      "volume_threshold": 100000,
+      "bollinger": {
+        "period": 20,
+        "std_dev": 2.0
+      },
+      "macd": {
+        "fast_period": 12,
+        "slow_period": 26,
+        "signal_period": 9
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 25
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 21
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      }
+    },
+    {
+      "stock_code": "MARUTI",
+      "support": 1000,
+      "resistance": 1100,
+      "volume_threshold": 100000,
+      "bollinger": {
+        "period": 20,
+        "std_dev": 2.0
+      },
+      "macd": {
+        "fast_period": 12,
+        "slow_period": 26,
+        "signal_period": 9
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 25
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 21
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      }
+    },
+    {
+      "stock_code": "WIPRO",
+      "support": 1000,
+      "resistance": 1100,
+      "volume_threshold": 100000,
+      "bollinger": {
+        "period": 20,
+        "std_dev": 2.0
+      },
+      "macd": {
+        "fast_period": 12,
+        "slow_period": 26,
+        "signal_period": 9
+      },
+      "adx": {
+        "period": 14,
+        "threshold": 25
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 21
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      }
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "stocks": [
+    {
+      "stock_code": "HDFBAN",
+      "support": 2016,
+      "resistance": 2021
+    },
+    {
+      "stock_code": "ONGC",
+      "support": 262,
+      "resistance": 285
+    },
+    {
+      "stock_code": "LARTOU",
+      "support": 3300,
+      "resistance": 3501
+    },
+    {
+      "stock_code": "WIPRO",
+      "support": 220,
+      "resistance": 231
+    },
+    {
+      "stock_code": "MARUTI",
+      "support": 10000,
+      "resistance": 11001
+    },
+    {
+      "stock_code": "NTPC",
+      "support": 2000,
+      "resistance": 3000
+    }
+  ]
+}
+
+{
+  "stocks": [
+    {
+      "stock_code": "HDFBAN",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000,
+      "bollinger": {
+        "period": 20,
+        "std_dev": 2.0
+      },
+      "macd": {
+        "fast_period": 12,
+        "slow_period": 26,
+        "signal_period": 9
+      },
+      "adx": {
+        "period": 14.0,
+        "threshold": 25
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 21
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.7
+      }
+    },
+    {
+      "stock_code": "ONGC",
+      "support": 263,
+      "resistance": 285,
+      "volume_threshold": 800000,
+      "bollinger": {
+        "period": 20,
+        "std_dev": 2.0
+      },
+      "macd": {
+        "fast_period": 12,
+        "slow_period": 26,
+        "signal_period": 9
+      },
+      "adx": {
+        "period": 14.0,
+        "threshold": 20
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 21
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.65
+      }
+    },
+    {
+      "stock_code": "LARTOU",
+      "support": 3300,
+      "resistance": 3501,
+      "volume_threshold": 1000000,
+      "bollinger": {
+        "period": 20,
+        "std_dev": 2.0
+      },
+      "macd": {
+        "fast_period": 12,
+        "slow_period": 26,
+        "signal_period": 9
+      },
+      "adx": {
+        "period": 14.0,
+        "threshold": 30
+      },
+      "moving_averages": {
+        "ma_fast": 9,
+        "ma_slow": 21
+      },
+      "inside_bar": {
+        "lookback": 1
+      },
+      "candle": {
+        "min_body_percent": 0.75
+      }
+    }
+  ]
+}
+
+
+
+{
+  "stocks": [
+    {
+      "stock_code": "TRENT",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "ASIPAI",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "HINLEV",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "NESIND",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "HERHON",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "EICMOT",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "KOTMAH",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "BAAUTO",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "RELIND",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "POWGRI",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "JIOFIN",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "TATGLO",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "HDFBAN",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "AXIBAN",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "BAJFI",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "ICIBAN",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "TITIND",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "NTPC",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    },
+    {
+      "stock_code": "TCS",
+      "support": 2016,
+      "resistance": 2018,
+      "volume_threshold": 1500000
+    }
+  ]
+}
